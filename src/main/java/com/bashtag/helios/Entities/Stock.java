@@ -11,7 +11,7 @@ public class Stock {
 	private ObjectId	id;
 
 	private String	symbol;
-	private String	market;
+	private ObjectId	market;
 	private String	name;
 	private String	sector;
 	private String	description;
@@ -34,11 +34,11 @@ public class Stock {
 		this.symbol = symbol;
 	}
 
-	public String getMarket() {
+	public ObjectId getMarket() {
 		return market;
 	}
 
-	public void setMarket(String market) {
+	public void setMarket(ObjectId market) {
 		this.market = market;
 	}
 
